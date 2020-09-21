@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">CsvAllInOne</string>
+    <string name="btn_create">Create</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_load">Load</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <string name="title_preview">Preview</string>
+    <string name="title_folder">Folder</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_files">Files</string>
+    <string name="title_favorites">Favorites</string>
+
+    <string name="lang">Language</string>
+    <string name="lang_sum">Application translation</string>
+
+
+
+    <string name="erase_data">Reset All</string>
+    <string name="scan_on_start">Scan device at every start</string>
+
 </resources>

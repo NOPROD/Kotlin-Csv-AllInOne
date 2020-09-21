@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CsvAllInOne</string>
+    <string name="btn_create">Créer</string>
+    <string name="btn_save">Sauvegarder</string>
+    <string name="btn_load">Charger</string>
+    <string name="btn_cancel">Annuler</string>
+
+    <string name="title_preview">CsvAllInOne</string>
+    <string name="title_folder">Aperçu</string>
+    <string name="title_settings">Options</string>
+    <string name="title_files">Fichier</string>
+    <string name="title_favorites">Favoris</string>
+
+    <string name="lang">Language</string>
+    <string name="lang_sum">Traduction de l\'application</string>
+
+
+    <string name="erase_data">Tout Réinitialiser</string>
+    <string name="scan_on_start">Scanner l\'appareil lors du démarrage</string>
+
+
+</resources>
