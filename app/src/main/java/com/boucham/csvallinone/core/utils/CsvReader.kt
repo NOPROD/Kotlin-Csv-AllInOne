@@ -7,7 +7,9 @@ import java.util.*
 
 
 object CsvReader {
-    var createdAt: String? = DateFormat.getDateInstance().format(Date());
+    init {
+        var createdAt: String? = DateFormat.getDateInstance().format(Date());
+    }
 
     fun read(file: File) = csvReader().readAll(file)
 

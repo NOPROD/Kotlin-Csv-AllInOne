@@ -2,8 +2,10 @@ package com.boucham.csvallinone
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Environment
 import androidx.viewpager.widget.ViewPager
 import com.boucham.csvallinone.core.extends.SectionsPagerAdapter
+import com.boucham.csvallinone.core.utils.sdCard
 import com.google.android.material.tabs.TabLayout
 
 class MainActivity : AppCompatActivity() {
@@ -12,14 +14,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val sectionsPagerAdapter = SectionsPagerAdapter(this, supportFragmentManager)
-
         val viewPager: ViewPager = findViewById(R.id.view_pager)
         val tabs: TabLayout = findViewById(R.id.tabs)
 
         viewPager.adapter = sectionsPagerAdapter
         tabs.setupWithViewPager(viewPager)
-
-
+        println("HEY HOY HEY HOY")
     }
-
 }

@@ -12,8 +12,8 @@ class App : Application() {
         super.onCreate()
 
         val prefs = PreferenceManager.getDefaultSharedPreferences(applicationContext)
-
         val store = PreferenceLocaleStore(this)
+
         lingerInstance = Lingver.init(this, store)
     }
 
