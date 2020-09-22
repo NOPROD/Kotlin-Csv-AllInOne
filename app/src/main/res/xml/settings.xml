@@ -7,7 +7,7 @@
     <androidx.preference.ListPreference
       android:entries="@array/lang_array"
       android:entryValues="@array/lang_array_values"
-      android:key="@string/lang"
+      android:key="preference_lang"
       android:title="@string/lang" />
 
   <androidx.preference.SwitchPreference

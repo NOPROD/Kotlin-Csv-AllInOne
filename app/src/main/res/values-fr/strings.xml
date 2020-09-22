@@ -10,6 +10,8 @@
     <string name="title_settings">Options</string>
     <string name="title_files">Fichier</string>
     <string name="title_favorites">Favoris</string>
+    <string name="title_read">Lecture CSV</string>
+    <string name="title_search">Rechercher</string>
 
     <string name="lang">Language</string>
     <string name="lang_sum">Traduction de l\'application</string>

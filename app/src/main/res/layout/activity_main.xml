@@ -6,6 +6,57 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btnFragmentSearch"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:text="@string/title_search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnFragmentRead"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFragmentRead"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:text="@string/title_read"
+        app:layout_constraintEnd_toStartOf="@+id/btnFragmentSearch"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnFragmentFiles"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnFragmentFiles"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:text="@string/title_files"
+        app:layout_constraintEnd_toStartOf="@+id/btnFragmentRead"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnFragmentFavorites"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFragmentFavorites"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:text="@string/title_favorites"
+        app:layout_constraintEnd_toStartOf="@+id/btnFragmentFiles"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnFragmentSettings"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFragmentSettings"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:text="@string/title_settings"
+        app:layout_constraintEnd_toStartOf="@+id/btnFragmentFavorites"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <FrameLayout
         android:id="@+id/flFragment"
         android:layout_width="0dp"
@@ -14,7 +65,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="parent">
 
     </FrameLayout>
 
