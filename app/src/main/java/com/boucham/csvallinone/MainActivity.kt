@@ -2,6 +2,8 @@ package com.boucham.csvallinone
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.boucham.csvallinone.core.extends.addFragment
+import com.boucham.csvallinone.core.extends.replaceFragment
 import com.boucham.csvallinone.main.ui.FragmentMain
 import com.boucham.csvallinone.main.ui.FragmentSettings
 import kotlinx.android.synthetic.main.activity_main.*
@@ -15,12 +17,7 @@ class MainActivity : AppCompatActivity() {
         val fragmentMain = FragmentMain()
         val fragmentSettings = FragmentSettings()
 
-        supportFragmentManager.beginTransaction().apply {
-            replace(R.id.flFragment, fragmentMain)
-            commit()
-        }
-
-
+        replaceFragment(fragmentMain, R.id.flFragment)
     }
 
 
