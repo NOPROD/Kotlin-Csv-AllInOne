@@ -6,6 +6,8 @@ import androidx.core.content.ContextCompat
 import androidx.viewpager.widget.ViewPager
 import com.boucham.csvallinone.core.extends.SectionsPagerAdapter
 import com.boucham.csvallinone.core.utils.rootFolder
+import com.boucham.csvallinone.core.utils.scanAll
+import com.boucham.csvallinone.main.ui.shared.DialogCustomListView
 import com.google.android.material.tabs.TabLayout
 import java.io.File
 
@@ -22,5 +24,8 @@ class MainActivity : AppCompatActivity() {
         tabs.setupWithViewPager(viewPager)
         println("HEY HOY HEY HOY")
 
+
+        val dialogCustom = DialogCustomListView(this)
+        dialogCustom.show()
     }
 }

@@ -1,7 +1,6 @@
 package com.boucham.csvallinone.core.utils
 
 import android.os.Environment
-import java.io.File
 
 const val DIRECTORY_MEDIA = "media"
 
