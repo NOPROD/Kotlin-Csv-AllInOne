@@ -9,5 +9,4 @@ fun dataFolder() = Environment.getDataDirectory()
 
 fun rootFolder() = Environment.getRootDirectory()
 
-fun sdCard() = File("${Environment.getDataDirectory().absolutePath}/${DIRECTORY_MEDIA}/0/")
-
+fun scanAll() = rootFolder().walkBottomUp().forEach { println(it) }

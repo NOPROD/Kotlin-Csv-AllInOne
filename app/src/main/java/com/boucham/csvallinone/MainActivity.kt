@@ -2,11 +2,12 @@ package com.boucham.csvallinone
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Environment
+import androidx.core.content.ContextCompat
 import androidx.viewpager.widget.ViewPager
 import com.boucham.csvallinone.core.extends.SectionsPagerAdapter
-import com.boucham.csvallinone.core.utils.sdCard
+import com.boucham.csvallinone.core.utils.rootFolder
 import com.google.android.material.tabs.TabLayout
+import java.io.File
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,5 +21,6 @@ class MainActivity : AppCompatActivity() {
         viewPager.adapter = sectionsPagerAdapter
         tabs.setupWithViewPager(viewPager)
         println("HEY HOY HEY HOY")
+
     }
 }
