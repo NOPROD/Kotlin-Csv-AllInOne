@@ -20,12 +20,14 @@ class MainActivity : AppCompatActivity() {
         val viewPager: ViewPager = findViewById(R.id.view_pager)
         val tabs: TabLayout = findViewById(R.id.tabs)
 
+        val animals = arrayOf("horse", "cow", "camel", "sheep", "goat")
+
+
         viewPager.adapter = sectionsPagerAdapter
         tabs.setupWithViewPager(viewPager)
         println("HEY HOY HEY HOY")
 
 
-        val dialogCustom = DialogCustomListView(this)
-        dialogCustom.show()
+        val dialogCustom = DialogCustomListView(this, animals)
     }
 }
